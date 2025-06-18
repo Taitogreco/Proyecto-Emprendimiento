@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hola, soy Santiago</h1>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Esta es mi primera página web hecha desde cero con HTML, CSS y un poco de JavaScript.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label>Tu nombre:
+          <input type="text" name="nombre" placeholder="Escribe tu nombre">
+        </label><br><br>
+        <label>Mensaje:
+          <textarea name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+        </label><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Santiago Greco Bastianelli</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
